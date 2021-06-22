@@ -99,6 +99,7 @@ public class GlobalMinCut {
     * @return       the number of edges between the partitions
     */
     public static int get_cut_size(Graph graph, ArrayList<ArrayList<Character>> cut) {
+        System.out.println(); //commit
         ArrayList<Edge> edges = graph.getEdges();
         int cut_size = 0;
         for (int i = 0; i < edges.size(); ++i) {
